@@ -1,10 +1,10 @@
 import React from 'react';
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
-import avocado_toast from '../../utils/img/avocado_toast.jpg';
-import lunch_img from '../../utils/img/lunch_img.jpg';
-import dinner_img from '../../utils/img/dinner_img.jpg';
-import dessert_img from '../../utils/img/dessert_img.jpg';
+import avocadoToast from '../../utils/img/avocadoToast.jpg';
+import lunchImg from '../../utils/img/lunchImg.jpg';
+import dinnerImg from '../../utils/img/dinnerImg.jpg';
+import dessertImg from '../../utils/img/dessertImg.jpg';
 
 const breakfast = [
 	{
@@ -108,7 +108,7 @@ const Menu = () => {
 					<div className="row flex-column-reverse flex-lg-row">
 						<div className="col-lg-6 d-flex justify-content-center">
 							<img
-								src={avocado_toast}
+								src={avocadoToast}
 								alt=""
 								className="img-fluid w-75 mt-4 mt-lg-0"
 							/>
@@ -161,7 +161,7 @@ const Menu = () => {
 						</div>
 						<div className="col-lg-6 d-flex justify-content-center">
 							<img
-								src={lunch_img}
+								src={lunchImg}
 								alt="lunch img"
 								className="img-fluid w-75 mt-4 mt-lg-0"
 							/>
@@ -178,7 +178,7 @@ const Menu = () => {
 					<div className="row flex-column-reverse flex-lg-row">
 						<div className="col-lg-6 d-flex justify-content-center">
 							<img
-								src={dinner_img}
+								src={dinnerImg}
 								alt="dinner img"
 								className="img-fluid w-75 mt-4 mg-lg-0"
 							/>
@@ -236,7 +236,7 @@ const Menu = () => {
 						</div>
 						<div className="col-lg-6 d-flex justify-content-center">
 							<img
-								src={dessert_img}
+								src={dessertImg}
 								alt="dessert"
 								className="img-fluid w-75 mt-4 mt-lg-0"
 							/>
