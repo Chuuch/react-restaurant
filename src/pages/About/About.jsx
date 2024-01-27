@@ -20,16 +20,10 @@ const About = () => {
 					offering a gastronomic experience that transcends boundaries, blending
 					the expertise of our talented chefs into a harmonious celebration of
 					taste and culture. Whether you're drawn to the rustic charm of Chef
-					Marco Russo(right)'s authentic Italian creations or enticed by the bold and
-					eclectic fusion dishes crafted by Chef Diego Hernandez and Chef
-					Hiroshi Tanaka(left), our menu is a testament to the dedication and passion
-					each chef brings to the kitchen. From the moment you step through our
-					doors, you'll be transported on a culinary journey that marries
-					tradition with innovation, inviting you to indulge in a feast of
-					exquisite dishes crafted with the finest, freshest ingredients. Join
-					us for an unforgettable dining experience, where every meal tells a
-					unique story and every bite is a celebration of the rich tapestry of
-					global flavors.
+					Marco Russo's authentic Italian creations or enticed by the bold and
+					eclectic fusion dishes crafted by Chef Marco Russo and Chef
+					Hiroshi Tanaka, our menu is a testament to the dedication and passion
+					each chef brings to the kitchen. 
 				</p>
 				
 				<div className="row">

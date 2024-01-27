@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import home1 from '../../utils/img/home.jpg';
 import relax from '../../utils/img/relax.jpg';
 import { Link } from 'react-router-dom';
 import pub from '../../utils/img/pub.jpg';
@@ -16,7 +15,7 @@ const Home = () => {
 						<div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
 							<h2 className="mb-0 text-dark fw-bold">Welcome to</h2>
 							<h1 className="mb-5 text-dark fw-bold text-center text-sm-start">
-								Chef's
+								Chefs
 							</h1>
 							<MenuBtn />
 						</div>
@@ -32,10 +31,15 @@ const Home = () => {
 					<div className="col-lg-6 d-flex flex-column align-items-center justify-content-center">
 						<h2 className="fs-1 mb-5 text-uppercase fw-bold">About us</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-							odio dolorum, inventore commodi modi consectetur illo iusto quidem
-							cum officiis sed accusamus dignissimos sapiente repellat,
-							veritatis aperiam adipisci suscipit labore.
+							Welcome to our culinary haven, where the art of dining meets a
+							symphony of diverse flavors. 
+							From the moment you step through our doors, you'll be transported
+							on a culinary journey that marries tradition with innovation,
+							inviting you to indulge in a feast of exquisite dishes crafted
+							with the finest, freshest ingredients. Join us for an
+							unforgettable dining experience, where every meal tells a unique
+							story and every bite is a celebration of the rich tapestry of
+							global flavors.
 						</p>
 						<Link to="/about">
 							<button type="button" className="btn btn-outline-warning btn-lg">
@@ -93,10 +97,9 @@ const Home = () => {
 								</ul>
 							</div>
 						</div>
-						<div className='d-flex justify-content-center'>
+						<div className="d-flex justify-content-center">
 							<MenuBtn />
 						</div>
-							
 					</div>
 				</div>
 

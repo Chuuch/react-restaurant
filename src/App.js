@@ -15,7 +15,7 @@ function App() {
 				<Container>
 					<Navbar.Brand>
 						<Link to="/" className="navbar-brand text-dark fw-semibold">
-							Chef's
+							Chefs
 						</Link>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,7 +47,7 @@ function App() {
 
 			<footer className="bg-body-tertiary">
 				<p className="p-3 m-0 text-center">
-					copyright @ Chef's
+					copyright @ Chefs
 				</p>
 			</footer>
 		</div>
